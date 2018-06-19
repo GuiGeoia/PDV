@@ -85,7 +85,7 @@ public class FrmProduct extends JDialog implements ActionListener
        txbCode.setText(""+p.getCode());
        txbPrice.setText(""+p.getPrice());
        txbDescription.setText(p.getDescription());
-       //txbImage.setText(""+p.getNota2());
+       
     }
 
     private void updateObject(Product p)
