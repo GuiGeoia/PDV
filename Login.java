@@ -14,7 +14,7 @@ public class Login extends JFrame implements ActionListener{
     	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     	setLocationRelativeTo(null);
     	JPanel fields = new JPanel();
-    	txbUsername = createField(fields, "Usuário", 18);
+    	txbUsername = createField(fields, "Usuario", 18);
     	txbPassword = createFieldPassword(fields, "Senha", 18);
 		JPanel pnlButtons = new JPanel();
 		btnLogin = createButton(pnlButtons, "Login");
